@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f5fdd2785415a40b73a9231ba3e379, type: 3}
+  m_Name: Shock_Ability
+  m_EditorClassIdentifier: 
+  name: Shock
+  icon: {fileID: 21300000, guid: 7135858a343197249b857d048753e684, type: 3}
+  activeTime: 0.2
+  shockDist: 4
+  enemyLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  shockMat: {fileID: 2100000, guid: 83e4946f777ed094fab20c4093d51346, type: 2}
+  shockEffectPrefab: {fileID: 8378712278198221331, guid: 1f4243deaff4fbb46b855af2efebc63c, type: 3}
